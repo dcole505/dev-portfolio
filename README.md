@@ -17,7 +17,7 @@ _This webpage serves as a landing page for my professional portfolio. It will be
 * _Navigate into the project folder for the project using the following command 'cd dev-portfolio'_
 * _To view the files and folders in the project, use the following command 'ls'
 * _To view the webpage, navigate to Desktop/dev-portfolio and right click the index.html file and select to open it with your default browser.
-* _You can visit the website to view it without copying it to your machine by visiting - dcole505.github.io/dev-portfolio
+* _You can visit the website to view it without copying it to your machine by visiting - https://dcole505.github.io/dev-portfolio/
 
 
 ## Known Bugs
