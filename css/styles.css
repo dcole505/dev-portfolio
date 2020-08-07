@@ -1,0 +1,10 @@
+.jumbotron {
+  text-align: center;
+}
+
+.centered-photo {
+  margin: auto;
+  width: 33%;
+  height: auto;
+  display: block;
+}
