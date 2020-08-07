@@ -3,17 +3,27 @@ body {
   background-color: #949b9d;
 }
 
-#main-page {
-  border-left: 50px;
-  border-left-color: #222222;
-  border-right: 50px;
-  border-right-color: #222222;
-}
-
 .jumbotron {
   text-align: center;
   background-color: #222222;
   color: #949b9d;
+}
+
+.panel {
+  text-align: center;
+}
+
+.panel ul {
+  text-align: left;
+}
+
+.panel ol {
+  text-align: left;
+}
+
+.styled-text {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .centered-photo {
