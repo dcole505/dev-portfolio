@@ -45,10 +45,18 @@ body {
 }
 
 #miniature-photo {
-  float: left;
+  margin: auto;
   border: 2px solid #222222;
   border-radius: 8%;
-  height: 100px;
-  width: 100px;
+  width: 10%;
+  height: auto;
   margin-bottom: 10px;
+  display: block;
+}
+
+#footer {
+  clear: both;
+  padding: 25, 0, 25, 0;
+  text-align: center;
+  color: #222222;
 }
