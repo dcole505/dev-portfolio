@@ -11,6 +11,7 @@ body {
 
 .panel {
   text-align: center;
+  color: #222222;
 }
 
 .panel ul {
@@ -26,7 +27,14 @@ body {
   text-decoration: underline;
 }
 
-.centered-photo {
+.header {
+  clear: both;
+  font-weight: bold;
+  color: #222222;
+  padding: 10px;
+}
+
+.profile-photo {
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -34,4 +42,13 @@ body {
   height: auto;
   display: block;
   padding-bottom: 25px;
+}
+
+#miniature-photo {
+  float: left;
+  border: 2px solid #222222;
+  border-radius: 8%;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
 }
