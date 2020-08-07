@@ -1,3 +1,5 @@
 $(document).ready(function() {
-event.preventDefault();
-})
+  $("#sideBarCollapse").on("click", function() {
+    $("#sidebar").toggleClass("active");
+  });
+});
