@@ -21,7 +21,7 @@ _This webpage serves as a landing page for my professional portfolio. It will be
 
 ## Known Bugs
 
-_There are no known bugs at this time._
+_The navbar is not currently funcitonal, but that will be resolved once I learn more about JQuery event handlers._
 
 ## Support and contact details
 
