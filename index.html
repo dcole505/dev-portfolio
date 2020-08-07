@@ -3,12 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>David Cole - Portfolio</title>
   </head>
   <body>
@@ -46,7 +43,7 @@
       <p class="lead"> - <em>Lao Tzu</em></p>
     </div>
 
-    <img class="centered-photo" src="img/photo.JPG" alt="photo of me">
+    <img class="profile-photo" src="img/photo.JPG" alt="photo of me">
 
     <div class="container">
       <div class="row">
@@ -73,7 +70,7 @@
               </p>
   
               <h5 class="header">Hobbies</h5>
-              <ul id="objectives">
+              <ul>
                 <li>Biking</li>
                 <li>Basketball</li>
                 <li>Camping</li>
@@ -81,10 +78,10 @@
                 <li>Miniature painting</li>
               </ul>
   
-              <img id="miniature-img" src="img/miniature.JPG" alt="Deathwatch Space Marine">
+              <img id="miniature-photo" src="img/miniature.JPG" alt="Deathwatch Space Marine">
   
               <h5 class="header">Current Objectives</h5>
-              <ol id="objectives">
+              <ol>
                 <li>Complete the Epidocus 20 week development bootcamp</li>
                 <li>Complete the 5 week internship</li>
                 <li>Prove to a company that I can be a <span class="styled-text">valuable</span> addition to their team of developers.</li>
@@ -102,15 +99,22 @@
               <ul>
                 <li>
                   <p><span class="styled-text">Mr. Robogers Neighborhood</span> - This is a webpage was built with HTML, CSS, and JavaScript which allows the user to input a number and receive an output message. This project works with arrays and built-in JavaScript methods.</p>
-                  <a href="https://github.com/dcole505/Mr.-Robogers-Neighborhood" class="btn btn-primary">Check it out</a>
+                  <div class="col text-center">
+                    <a href="https://github.com/dcole505/Mr.-Robogers-Neighborhood" class="btn btn-primary">Check it out</a>
+                  </div>
                 </li>
                 <li>
-                  <p><span class="styled-text">Programming Language Selector</span> - Built with HTML, CSS, JavaScript and JQuery, this project was geared towards gaining further understand of branching structures in JavaScript. The webpage surveys the user for information and suggests a first programming language for them, based on the results. </p>
-                  <a href="https://github.com/dcole505/programming-language-suggester" class="btn btn-primary">Check it out</a>
+                  <p><span class="styled-text">Programming Language Selector</span> - Built with HTML, CSS, JavaScript and JQuery, this project was geared towards gaining further understand of branching structures in JavaScript. The webpage surveys the user for information and suggests a first programming language for them, based on the results.</p>
+                  <div class="col text-center">
+                    <a href="https://github.com/dcole505/programming-language-suggester" class="btn btn-primary">Check it out</a>
+                  </div>
                 </li>
                 <li>
                   <p><span class="styled-text">Celebrity Dating Quiz</span>- A webpage built to practice conditional statements and branching. This project will query the user for information and output a love interest based on the results. Built with HTML, CSS, and JavaScript.</p>
-                  <a href="https://github.com/dcole505/celebrity-dating-quiz"" class="btn btn-primary">Check it out</a>
+                  <div class="col text-center">
+                    <a href="https://github.com/dcole505/celebrity-dating-quiz" class="btn btn-primary">Check it out</a>
+                  </div>
+
                 </li>
               </ul>
             </div>
@@ -123,6 +127,6 @@
   
         <p>© 2020 David Cole</p>
       </div>
-
+    </div>
   </body>
 </html>
